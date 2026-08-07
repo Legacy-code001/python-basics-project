@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0d57839 (first-aug)
 # # def area_of_triangle(length, breath):
 # #     print("__name__", __name__)
 # #     return 1/2 * (breath * length)
@@ -82,4 +86,56 @@ def score_summary(name, a, b, c):
         Grade = "F"
     return Grade
     return f"Student: {name}\nAverage: {avg}\nGrade: {Grade}"
+<<<<<<< HEAD
 print(score_summary("mueez", 90, 86, 90))
+=======
+print(score_summary("mueez", 90, 86, 90))
+=======
+# def area_of_triangle(length, breath):
+#     print("__name__", __name__)
+#     return 1/2 * (breath * length)
+
+
+# if __name__ == "__main__":
+#     print("i an in area_of_tringle")
+#     a = area_of_triangle(20, 50)
+#     print("area")
+
+# drinks = ["latte", "espresso", "mocha"]
+# loud_drinks = list(map(lambda d: d.upper(), drinks))
+# print(loud_drinks)
+
+menu_items = [
+    {"name": "Mocha", "price": 5.00},
+    {"name": "Espresso", "price": 3.50}
+]
+# We tell Python: "Look inside the dictionary and pull out the 'price' value to sort"
+sorted_menu = sorted(menu_items, key=lambda item: item["price"])
+print(sorted_menu)
+
+
+def add(*args):
+    print(sum(args))
+
+add(2,5)
+
+
+# sorted_val = sorted(menu_items, key=lambda item: item["price"])
+# list(map(lambda item, price: price * item, menu_items))
+
+num = [1,6,8]
+
+print(num[::2])
+
+# lis comprehension
+
+# ccomp = [x * 2 for x in num]
+# print(ccomp)
+
+
+full_name = "Mueez,Raheem,malik"
+print(full_name[6:12]
+)
+print(full_name.split(',',1))
+>>>>>>> 33d816b (next-push)
+>>>>>>> 0d57839 (first-aug)

@@ -129,6 +129,15 @@ first_dic = {"car": "drive", "bike": "ride", "plane": "fly", "boat": "sail"}
 # print(first_dic.get('boat', "not avilable"))
 
 
+<<<<<<< HEAD
+=======
+# drint = {"coke", "fanta", "pepsi"}
+# # drint.add("mint")
+# drint.update("mint")
+# print(drint)
+
+
+>>>>>>> 0d57839 (first-aug)
 # print(first_dic.pop("boat"))
 # first_dic.update({"boat": "sail", "plane": "flies"})
 # print(first_dic)

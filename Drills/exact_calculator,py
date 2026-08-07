@@ -1,0 +1,23 @@
+def exact_calculator(left, operator, right):
+    try:
+        left_num = float(left)
+        right_num = float(right)
+    except (ValueError, TypeError):
+        return "Invalid number"
+    
+    if operator == "+":
+        return round((left_num + right_num), 2)
+    if operator == "-":
+        return round((left_num - right_num), 2)
+    if operator == "*":
+        return round((left_num * right_num), 2)
+    if operator == "**":
+        return round((left_num ** right_num), 2)
+    if operator == "/":
+        if right_num == 0:
+            return "Cannot divide by zero"
+        else:
+            return round((left_num / right_num), 2)
+    
+    return "Invalid operator"
+
