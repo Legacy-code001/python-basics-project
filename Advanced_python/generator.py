@@ -81,8 +81,8 @@ raw_orders = order_source()
 taxed_orders = apply_tax_pipeline(raw_orders)
 receipts = receipt_formatter(taxed_orders)
 
-for receipt in receipts:
-    print(receipt)
+for r in receipts:
+    print(r)
 
 
 
