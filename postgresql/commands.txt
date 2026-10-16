@@ -1,0 +1,42 @@
+to start psql services - sudo systemctl start postgresql
+
+to check for the psql status sudo systemctl start postgresql
+
+for being loggin 
+
+window installer in creating credentials (password and usersname) -
+
+psql -U postgres -C "CREATE USER shareblogger WITH PASSWORD shareblogger@LEG;"
+
+creating database and making our new user the owner of the database - 
+
+createdb -U postgres -O shareblogger blog
+
+
+for linux - for linux: sudo -u postgres  psql -c "CREATE USER shareblogger WITH PASSWORD 'shareblogger@LEG';"
+
+sudo -u postgres createdb blog -o shareblogger (blog is the name of the database we created)
+
+to lohin into the database as user (psql -d blog -U shareblogger -h localhost\)
+
+to check if there is any table (\dt)
+
+to quit the session (\q)
+
+having to delete the default public schema instead of database - psql -U username -d blogname -c 'DROP SCHEMA public CASCADE; CREATE SCHEMA public;
+
+for linux (psql -h localhost -U shareblogger -d blog -c 'DROP SCHEMA public CASCADE; CREATE SCHEMA public;'
+)
+
+uv run alembic upgrade head -(run the table statemen againt our postgres database)
+
+un run alembic current
+
+to check for specific column in our postgres database SELECT id, title, likes from posts
+
+
+
+to roll back due to issue with a migration process: (alembic downgrade -1)
+
+
+SELECT "id", "title", "likes" FROM "posts";

@@ -1,3 +1,9 @@
+"""
+
+Selection Sort: Scans the unsorted portion of the array to find the absolute minimum element, then swaps it immediately with the first element of the unsorted boundary
+
+"""
+
 def selection_sort(element, keys=None):
 
     for i in range(len(element) - 1):

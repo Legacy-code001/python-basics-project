@@ -1,3 +1,9 @@
+"""
+Insertion Sort: Divides the array into virtual sorted and unsorted segments. It takes elements from the unsorted part one by one and shifts elements to slide it into its correct position inside the sorted part
+
+"""
+
+
 # def insertion(element):
 #     for i in range(len(element)):
 #         anchor = element[i]

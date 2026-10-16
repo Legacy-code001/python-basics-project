@@ -59,3 +59,8 @@ transposed = [[row[i] for row in matrix] for i in range(3)]
 
 print(transposed)
 # Output: [[1, 4], [2, 5], [3, 6]]
+
+
+
+If the button doesn't work, copy and paste this link into your browser:
+http://localhost:8000/reset-password?token=5wS8dju6kbQYj6rF54WR0rwF8QHcvwJtpF0SC4dfxYw

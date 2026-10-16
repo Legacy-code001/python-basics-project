@@ -2,6 +2,7 @@
 #     def eng(self):
 #         print("Hello")
 
+# # take in the class name as parameter
 # class noon(greeting):
 #     pass
 # G = noon()
@@ -26,22 +27,26 @@
 # print(premium.get_material())  # Output: double-walled paper
 
 
-# class CardboardCup2:
-#     def __init__(self):
-#         self.content_capacity = 0
-#     def fill(self, litre):
-#         self.content_capacity += litre
+class CardboardCup2:
+    def __init__(self):
+        self.content_capacity = 0
+    def fill(self, litre):
+        self.content_capacity += litre
+        return self.content_capacity
 
-# class MyCup(CardboardCup2):
-#     def __init__(self):
-#         super().__init__()
-#         self.current_state = True
-#     def fill(self, litre):
-#         super().fill(litre)
-#         # print(f"the state is currently {self.current_state}")
+class MyCup(CardboardCup2):
+    def __init__(self):
+        #   supper made it possible to import and use all the atribute or methode in a parent funct pass into the child
+        super().__init__()
+        self.current_state = True
+    def fill(self, litre):
+        return super().fill(litre)
+        # print(f"the state is currently {self.current_state}")
+        
 
-# first_cup = MyCup()
-# first_cup.fill(20)
+first_cup = MyCup()
+first_cup.fill(20)
+print(f"Current capacity: {first_cup.fill(20)} litres")
 
 # class CardboardCup:
 #     def __init__(self):
@@ -65,38 +70,38 @@
 # premium_cup = InsulatedCup()
 # premium_cup.fill(8.0)
 
-class Cup:
-    def fill(self):
-        print("Pouring...")
+# class Cup:
+#     def fill(self):
+#         print("Pouring...")
 
-class SuperCup(Cup):
-    def fill(self):
-        super().fill()
-        print("Locking lid!")
+# class SuperCup(Cup):
+#     def fill(self):
+#         super().fill()
+#         print("Locking lid!")
 
-sc = SuperCup()
-sc.fill()
+# sc = SuperCup()
+# sc.fill()
 
 
-# c3 lineariztion
-class Base:
-    def __init__(self):
-        print("Base init")
+# # c3 lineariztion
+# class Base:
+#     def __init__(self):
+#         print("Base init")
 
-class Left(Base):
-    def __init__(self):
-        print("Left init")
-        super().__init__()  # Passes control to the next MRO step, not necessarily Base!
+# class Left(Base):
+#     def __init__(self):
+#         print("Left init")
+#         super().__init__()  # Passes control to the next MRO step, not necessarily Base!
 
-class Right(Base):
-    def __init__(self):
-        print("Right init")
-        super().__init__()
+# class Right(Base):
+#     def __init__(self):
+#         print("Right init")
+#         super().__init__()
 
-class Child(Left, Right):
-    def __init__(self):
-        print("Child init")
-        super().__init__()
+# class Child(Left, Right):
+#     def __init__(self):
+#         print("Child init")
+#         super().__init__()
 
-# Instantiate the child
-obj = Child()
+# # Instantiate the child
+# obj = Child()

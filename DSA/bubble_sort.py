@@ -1,3 +1,11 @@
+
+"""
+
+Bubble Sort: Loops continuously through the array, swapping adjacent elements if they are out of order, effectively "bubbling" the largest remaining element to the end of the list on each pass
+
+"""
+
+
 def bubbleSort(element,keys=None):
     # Outer loop uses 'i'
     for i in range(len(element) - 1):
@@ -35,3 +43,8 @@ if __name__ == "__main__":
     # print(bubbleSort(element))
 
 
+"""
+
+Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, and Quick Sort represent the foundation of data arrangement in computer science. They are broadly categorized into two tiers: O(n²) simple sorters (Bubble, Insertion, Selection) which are slow for large datasets but easy to implement, and \(O(n \log n)\) divide-and-conquer sorters (Merge, Quick) designed for high-performance and large-scale applications
+
+"""

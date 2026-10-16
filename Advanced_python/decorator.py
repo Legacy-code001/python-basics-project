@@ -24,9 +24,11 @@ def cube_num(numbers):
 
 array = range(1, 100)
 the_square = square_num(array)
+print(the_square)
 
 array = range(1, 100)
 the_cube = cube_num(array)
+print(the_cube)
 
 
 # taking function as argument

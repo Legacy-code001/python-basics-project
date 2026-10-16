@@ -1,3 +1,8 @@
+"""
+
+Quick Sort: Also uses divide-and-conquer, but relies on a pivot element. It rearranges the array so everything smaller than the pivot goes to the left, and everything larger goes to the right, then recursively sorts the halves
+
+"""
 def swap(a, b, arr):
     if a != b:
         arr[a], arr[b] = arr[b], arr[a]
