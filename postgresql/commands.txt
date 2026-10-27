@@ -15,7 +15,7 @@ createdb -U postgres -O shareblogger blog
 
 for linux - for linux: sudo -u postgres  psql -c "CREATE USER shareblogger WITH PASSWORD 'shareblogger@LEG';"
 
-sudo -u postgres createdb blog -o shareblogger (blog is the name of the database we created)
+sudo -u postgres createdb blog -0 shareblogger (blog is the name of the database we created)
 
 to lohin into the database as user (psql -d blog -U shareblogger -h localhost\)
 
@@ -37,6 +37,5 @@ to check for specific column in our postgres database SELECT id, title, likes fr
 
 
 to roll back due to issue with a migration process: (alembic downgrade -1)
-
 
 SELECT "id", "title", "likes" FROM "posts";
