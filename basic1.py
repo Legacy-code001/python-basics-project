@@ -1,115 +1,115 @@
-var = "welcome to python"
-name = "i am abdulmueez"
-# print(var)
-# print(var[:7])
-# print(var[8:])
-# print(var.upper())
-# print(var.count("o"))
-# print(var.find("o"))
-# print(var[::-1])
-# print(var[:])
-# print(var[::2])
+# var = "welcome to python"
+# name = "i am abdulmueez"
+# # print(var)
+# # print(var[:7])
+# # print(var[8:])
+# # print(var.upper())
+# # print(var.count("o"))
+# # print(var.find("o"))
+# # print(var[::-1])
+# # print(var[:])
+# # print(var[::2])
 
-items = {"teeth": "brush", "body": "soap", "leg": "shoe"}
+# items = {"teeth": "brush", "body": "soap", "leg": "shoe"}
 
 
-# result = var + ", " + name
-# result2 = '{} , {}'.format(var, name)
-# result3 = 'the needs of body parts such as {0[0]}, {1[1]} and {2[1]}'.format(items)
-# print(3 // 2)
+# # result = var + ", " + name
+# # result2 = '{} , {}'.format(var, name)
+# # result3 = 'the needs of body parts such as {0[0]}, {1[1]} and {2[1]}'.format(items)
+# # print(3 // 2)
 
-# list, tuple, set, dictionary
+# # list, tuple, set, dictionary
 
-profession = ["doctor", "engineer", "lawyer", "accountant", "pilot"]
-ages = [97, 25, 77, 50]
-coder = ["developer", "banker"]
-# print(len(profession))
+# profession = ["doctor", "engineer", "lawyer", "accountant", "pilot"]
+# ages = [97, 25, 77, 50]
+# coder = ["developer", "banker"]
+# # print(len(profession))
 
-# print(profession + coder)
+# # print(profession + coder)
 
-# print("MLOPs" in profession)
+# # print("MLOPs" in profession)
 
-# print(agse[0] + 1)
-# print(ages)
+# # print(agse[0] + 1)
+# # print(ages)
 
-# for age in ages:
-#     print(age)
+# # for age in ages:
+# #     print(age)
+
+# # div = ages[1] / 2
+# # print(round(div))
 
 # div = ages[1] / 2
-# print(round(div))
+# # print((div))
+# # print(round(div, 2))
 
-div = ages[1] / 2
-# print((div))
-# print(round(div, 2))
+# val1 = 26
+# val2 = "3"
+# # print(val1/int(val2))
+# # print (str(val1) + val2)
 
-val1 = 26
-val2 = "3"
-# print(val1/int(val2))
-# print (str(val1) + val2)
+# # profession.append("geologist")
+# # profession.insert(3, "pharmacist")
+# # profession.extend(coder)
+# # profession.remove("banker")
+# # remVal = profession.pop()
+# # print(remVal)
+# # profession.reverse()
+# # # profession.sort()
+# # ages.sort()
+# profession.sort(reverse=True)
+# # print(profession)
+# # print(profession.index("doctor"))
+# # print(profession)
+# # functions min, max, sum
+# # print(sum(ages))
 
-# profession.append("geologist")
-# profession.insert(3, "pharmacist")
-# profession.extend(coder)
-# profession.remove("banker")
-# remVal = profession.pop()
-# print(remVal)
-# profession.reverse()
-# # profession.sort()
-# ages.sort()
-profession.sort(reverse=True)
-# print(profession)
-# print(profession.index("doctor"))
-# print(profession)
-# functions min, max, sum
-# print(sum(ages))
+# for index, career in enumerate(profession, start=1): 
+#     print(index, career)
 
-for index, career in enumerate(profession, start=1): 
-    print(index, career)
+# joined_coder = ' - '.join(coder)
+# # print(coder)
+# # print(joined_coder)
 
-joined_coder = ' - '.join(coder)
-# print(coder)
-# print(joined_coder)
+# # print(joined_coder.split(" - "))
 
-# print(joined_coder.split(" - "))
+# # tuple
+# var_tuple = ("laptop", "phone", "monitor")
+# var_tuple_2 = var_tuple
 
-# tuple
-var_tuple = ("laptop", "phone", "monitor")
-var_tuple_2 = var_tuple
+# # print(var_tuple_2)
 
-# print(var_tuple_2)
+# # tuple does not support  mutation
+# # var_tuple[1] = "samsung"
+# # print(var_tuple_2)
+# # print(var_tuple)
 
-# tuple does not support  mutation
-# var_tuple[1] = "samsung"
-# print(var_tuple_2)
-# print(var_tuple)
+# # set - random disply of values, it also dont acomodate duplicate, 
+# # union, interection, 
 
-# set - random disply of values, it also dont acomodate duplicate, 
-# union, interection, 
-
-var_set = {'math',' chem',' bio','eng',}
-var_set_Art = {"lit", "civic", "math", "eng"}
-var_set_2 = var_set
-# print(var_set)
-# print(var_set_2)
-# print(var_set.union(var_set_Art))
-# print(var_set.intersection(var_set_Art))
-# print(var_set.difference(var_set_Art))
+# var_set = {'math',' chem',' bio','eng',}
+# var_set_Art = {"lit", "civic", "math", "eng"}
+# var_set_2 = var_set
+# # print(var_set)
+# # print(var_set_2)
+# # print(var_set.union(var_set_Art))
+# # print(var_set.intersection(var_set_Art))
+# # print(var_set.difference(var_set_Art))
 
 
-val = []
-val2 = ()
-val3 = set()
-val.append("habeeb")
-val.append("mueez")
-val.insert(1, "malik")
-# print(val2)
-val.reverse()
-# print(val)
-val2 = tuple(val)
-val3 = set(val)
-# print(val2)
-# print(val3)
-# print(len(val))
+# val = []
+# val2 = ()
+# val3 = set()
+# val.append("habeeb")
+# val.append("mueez")
+# val.insert(1, "malik")
+# # print(val2)
+# val.reverse()
+# # print(val)
+# val2 = tuple(val)
+# val3 = set(val)
+# # print(val2)
+# # print(val3)
+# # print(len(val))
 
 
 # dictionary
@@ -119,25 +119,31 @@ first_dic = {"car": "drive", "bike": "ride", "plane": "fly", "boat": "sail"}
 # for i in first_dic:
 #     print(i)
 
+# for val in first_dic.keys():
+#     print(val)
+
 # for i, val in first_dic.items():
 #     print(i, val)
 
+# for val in first_dic.values():
+#     print(val)
+
 # (print(first_dic['car']))
 
-# better written as this
+# # better written as this
 
-# print(first_dic.get('boat', "not avilable"))
-
-
-<<<<<<< HEAD
-=======
-# drint = {"coke", "fanta", "pepsi"}
-# # drint.add("mint")
-# drint.update("mint")
-# print(drint)
+# print(first_dic.get('fig', "not avilable"))
 
 
->>>>>>> 0d57839 (first-aug)
+# <<<<<<< HEAD
+# =======
+# # drint = {"coke", "fanta", "pepsi"}
+# # # drint.add("mint")
+# # drint.update("mint")
+# # print(drint)
+
+
+# >>>>>>> 0d57839 (first-aug)
 # print(first_dic.pop("boat"))
 # first_dic.update({"boat": "sail", "plane": "flies"})
 # print(first_dic)
@@ -145,12 +151,12 @@ first_dic = {"car": "drive", "bike": "ride", "plane": "fly", "boat": "sail"}
 # print(first_dic.keys())
 # print(len(first_dic))
 
-#  conditional and boolean or boolean
-school = ""
-val = False
-val3 = "false"
-val4 = 4
-val5 = 34
+# #  conditional and boolean or boolean
+# school = ""
+# val = False
+# val3 = "false"
+# val4 = 4
+# val5 = 34
 
 # not for negation
 # if not school:
@@ -278,5 +284,5 @@ val5 = 34
 
 # print(days_in_month(2017, 2))
 
-x = input("what is the value: " )
-print(x)
+# x = input("what is the value: " )
+# print(x)
