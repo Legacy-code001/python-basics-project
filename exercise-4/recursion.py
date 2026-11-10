@@ -22,5 +22,8 @@ def count_ways(amount: int, coins:list[int]) -> int :
     
     return search(amount, 0)
 
-print(count_ways(5, [1, 2, 5]))
+print(count_ways(5, [1, 2, 5])) 
+ 
+
+
 
