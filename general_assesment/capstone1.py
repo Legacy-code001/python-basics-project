@@ -9,8 +9,6 @@ records = [
     ("ST01", "Python"),
 ]
 
-
-
 def analyse_records():
     student_count = {}
     activity_count = {}
@@ -67,8 +65,6 @@ def track_calls(func):
     # 4. Initialize the counter as an attribute on the wrapper so it's accessible externally
     wrapper.calls = 0
     return wrapper
-
-
 # Applying the decorator to analyze_records
 @track_calls
 def analyze_records(data_list):
@@ -89,7 +85,6 @@ res2 = analyze_records(data_list=records)
 print("Result 2:", res2)
 print(f"External Counter Check: {analyze_records.calls}\n" + "-"*40)
 
-=======
 records = [
     ("ST01", "Python"),
     ("ST02", "HTML"),
@@ -182,4 +177,3 @@ print(f"External Counter Check: {analyze_records.calls}\n" + "-"*40)
 res2 = analyze_records(data_list=records)
 print("Result 2:", res2)
 print(f"External Counter Check: {analyze_records.calls}\n" + "-"*40)
-
