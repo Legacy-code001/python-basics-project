@@ -45,20 +45,20 @@ val = np.array([['101', 'Sales', '3', '101', '8'],
 
 print(val[:, 4])
 
-print(np.mean(val[:,4].astype(float)))
+print(np.mean(val[:,4].astype.float)))
 
 print(np.sort(val[:, 4].astype(int)))
 
 
 for v in val:
-    print(v[:2])
+    print(v[:3])
 # for v in val:
 #     # print(val[:, :2])
 #     print(f"employee_id: {v[0]}, happiness: {v[-1].astype(float)}")
 
 # print(val[val[:, 1] == "HR"])
 
-# print(val[val[:, 1] == "HR"][:, 4].astype(float))
+print(val[val[:, 1] == "HR"][:, 4].astype(float))
 
 # print(np.mean(val[val[:, 1] == "HR"][:, 4].astype(float)))
 #     # print(val[:, :2])
