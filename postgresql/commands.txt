@@ -15,7 +15,7 @@ createdb -U postgres -O shareblogger blog
 
 for linux - for linux: sudo -u postgres  psql -c "CREATE USER shareblogger WITH PASSWORD 'shareblogger@LEG';"
 
-sudo -u postgres createdb blog -0 shareblogger (blog is the name of the database we created)
+sudo -u postgres createdb blog -O shareblogger (blog is the name of the database we created)
 
 to lohin into the database as user (psql -d blog -U shareblogger -h localhost\)
 
