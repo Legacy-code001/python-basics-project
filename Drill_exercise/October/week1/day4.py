@@ -25,6 +25,9 @@ print(f"present_date_my: {present_date_my.strftime('%A, %Y-%m-%d')}")
 print(f"the businessday in N days: {result.strftime('%A, %Y-%m-%d')}")
 
 
+# strftime converts a date/time object into a formatted string, while strptime parses a date/time string back into a date/time object.
+
+
 #20 Practice Problem: Create a class PowerOfTwo that allows you to iterate through powers of 2 (1, 2, 4, 8…) up to a specified maximum exponent.
 
 class Power_Of_Two():
