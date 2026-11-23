@@ -1,0 +1,14 @@
+{
+    "name": "Maulik",
+    "age": 30,
+    "is_employee": true,
+    "skills": [
+        "Python",
+        "Data Analysis",
+        "Machine Learning"
+    ],
+    "address": {
+        "street": "123 Main St",
+        "city": "Wonderland"
+    }
+}

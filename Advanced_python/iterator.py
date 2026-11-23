@@ -1,4 +1,4 @@
-# class RemoteControl():
+/# class RemoteControl():
 #     def __init__(self):
 #         self.channel = ["bcos", "osbc", "nta", "channel_tv", "arise_tv"]
 #         self.index = -1
