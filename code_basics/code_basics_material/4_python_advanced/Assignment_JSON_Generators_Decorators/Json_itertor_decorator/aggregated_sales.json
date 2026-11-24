@@ -1,0 +1,14 @@
+[
+    {
+        "category": "electronics",
+        "total_price": 42000
+    },
+    {
+        "category": "apparel",
+        "total_price": 4400
+    },
+    {
+        "category": "home_appliances",
+        "total_price": 3750
+    }
+]
