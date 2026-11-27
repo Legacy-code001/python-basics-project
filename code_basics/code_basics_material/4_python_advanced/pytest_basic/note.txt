@@ -1,0 +1,3 @@
+unique test are kind of authomated test, others integrated test, smoke test, stress test(use to check load or capability of your software
+
+pytest package with unittesting option)
